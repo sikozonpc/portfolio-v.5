@@ -1,5 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #333;
 }
 
+.-active {
+    color: #000 !important;
+}
+
+.btn {
+    background:linear-gradient(90deg,#b3ffab, #12fff7);
+    border: 0;
+    font-size: 20px;
+    padding: 15px 24px;
+    border-radius: 4px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1),
+         0 -100px 0 transparent inset;
+}
+    .btn:hover {
+        background:linear-gradient(90deg,#a2f599, #2deee7);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
+        0 -100px 0 transparent inset;
+    }
+    .btn:active {
+
+    }
