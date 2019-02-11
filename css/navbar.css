@@ -1,0 +1,15 @@
+/************* Navbar *************/
+.nav {
+    background: red;
+}
+.nav a {
+    text-decoration: none;
+}
+
+.logo {
+    color: #000;
+    font-size: 2rem;
+}
+.nav-items {
+
+}
