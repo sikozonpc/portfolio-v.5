@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-
 body {
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: #333;
+    scroll-behavior: smooth;
 }
 
 .-active {
@@ -13,22 +13,106 @@ body {
 }
 
 .btn {
+    display: inline-block;
+    position: relative;
     background:linear-gradient(90deg,#b3ffab, #12fff7);
     border: 0;
     font-size: 20px;
     padding: 15px 24px;
     border-radius: 4px;
+    text-decoration: none;
     color: #333;
     font-weight: 500;
     cursor: pointer;
     box-shadow: 0 4px 4px rgba(0,0,0,0.1),
          0 -100px 0 transparent inset;
+
+    transition: all 0.3s ease;
+    box-sizing: border-box;
 }
+    .btn::after {
+        content: "»";
+        opacity: 0;
+        position: absolute;
+        top: 30%;
+        right: 0.4em;
+        transition: all 0.3s ease;
+    }
+    .btn:hover::after {
+        right: 1em;
+        opacity: 1;
+    }
     .btn:hover {
+        padding: 15px 34px 15px 14px;
         background:linear-gradient(90deg,#a2f599, #2deee7);
         box-shadow: 5px 5px 5px rgba(0,0,0,0.1),
         0 -100px 0 transparent inset;
+        color: #111
+    }   
+
+.btn-dark {
+    background: linear-gradient(90deg,#db1939, #630f9e);
+    color: #fff;
+}
+    .btn-dark:hover {
+        background: linear-gradient(90deg,#e70b30, #770fc2);
+        color: #fff;
     }
-    .btn:active {
+.btn-orange {
+    background:  linear-gradient(90deg,#833ab4dc, #fd1d1dcb, #fcb045e1);
+    color: #fff;
+}
+    .btn-orange:hover {
+        background:  linear-gradient(90deg,#9028d4dc, #fd1d1dcb, #e99219e1);
+        color: #fff;
+    }
+/***** Scroll arrow down ******/
+.down-arrow {
+    color: inherit;
+}
+    .fa-angle-down {
+        position: absolute;
+        top:90%;
+        left: 50%;
+        right:50%;
+        font-size: 2rem;
+    }
+    .fa-angle-down:hover{
+        color: #20dfd8;
+        font-size: 2.5rem;
+    }
+
+.title {
+    position: relative;
+    font-size: 2rem;
+    z-index: 2;
+}
+    .title::after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        z-index: -1;
+    
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg,#b3ffab, #12fff7);
+        
+        transition: 200ms all linear;
+    }
+
+.desc {
+    font-size: 1rem;
+    position: relative;
+    margin-left: 15px;
+}
+    .desc::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 4px;
+        background: linear-gradient(#833ab4, #fd1d1d);
+        top:0;
+        left:-15px;
 
     }

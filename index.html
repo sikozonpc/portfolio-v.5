@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiago Taquelim | Web Developer </title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Css styles -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
     <!-------- Navbar -------->
@@ -34,10 +37,49 @@
                         commodi quibusdam.</p>
             </div>
             <div class="btn-list">
-                <button class="btn">hire me</buton>
-                <button class="btn">check my work</buton>
+                <a class="btn">hire me</a>
+                <a href="#portfolio" class="btn">check my work</a>
             </div>
         </div>
+        <a class="down-arrow" href="#portfolio"><i class="fas fa-angle-down"></i></a>
     </header>
+       <!-------- Portfolio -------->
+    <section id="portfolio">
+        <div class="portfolio--page">
+            <h2 class="title"> Portfolio</h2>
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi distinctio nobis provident
+                 deleniti iste deserunt sint fuga. Sed iusto pariatur et rem fuga totam, adipisci saepe nihil hic
+                  nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, corrupti? Architecto sit
+                   possimus asperiores amet.
+            </p>
+
+            <div class="portfolio--page__projects">
+                <a href="#" class="project">
+                    <img src="assets/thumbnails/numbers-money-calculating-calculation.jpg">
+                    <p>web app * react * node.js</p>
+                    <h3>Contas</h3>
+                    <p>a spendings application.</p>
+                </a>
+                <a href="#" class="project">
+                    <img src="assets/thumbnails/numbers-money-calculating-calculation.jpg">
+                    <p>web app * react * node.js</p>
+                    <h3>Contas</h3>
+                    <p>a spendings application.</p>
+                </a>
+                <a href="#" class="project">
+                    <img src="assets/thumbnails/numbers-money-calculating-calculation.jpg">
+                    <p>web app * react * node.js</p>
+                    <h3>Contas</h3>
+                    <p>a spendings application.</p>
+                </a>
+            </div>
+            <a href="#" class="btn">see more...</a>
+            <div class="more-info">
+                <h2>also check out »</h2>
+                <a href="#" class="btn btn-dark">Github</a>
+                <a href="#" class="btn btn-orange">CodePen</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
