@@ -15,6 +15,8 @@
         background: whitesmoke;
         padding: 15px;
 
+        width: 40%;
+
         box-shadow: 4px 4px 4px rgba(0,0,0,0.1),
         4px -100px 0 transparent inset;
     }
@@ -43,7 +45,6 @@
             z-index: -2;
         }
         .photo-me--card {
-            width: 500px;
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
@@ -58,8 +59,8 @@
         .btn-list {
             align-self: flex-end;
         }
-        .btn-list > button {
-            margin: 10px;
+        .btn-list > a {
+            margin-right: 15px;
         }
 
     .intro-text { 

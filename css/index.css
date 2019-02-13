@@ -5,6 +5,8 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: #333;
+}
+html {
     scroll-behavior: smooth;
 }
 
@@ -100,9 +102,27 @@ body {
         
         transition: 200ms all linear;
     }
+.sub-title {
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+    .sub-title::after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 10px;
+        z-index: -1;
+
+        width: 60%;
+        height: 100%;
+        background:  linear-gradient(90deg,#b166e2dc, #fd1d1dcb, #fcb045e1);
+        
+        transition: 200ms all linear;
+    }
 
 .desc {
-    font-size: 1rem;
+    font-size: 1.1rem;
     position: relative;
     margin-left: 15px;
 }
@@ -116,3 +136,11 @@ body {
         left:-15px;
 
     }
+
+    
+.f-1 {
+    font-size: 1.15rem !important;
+}
+.f-2 {
+    font-size: 1.5rem !important;
+}

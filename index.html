@@ -21,9 +21,9 @@
         <a href="#" class="logo">tiago.taquelim</a>
         <div class="nav-items">
             <a class="action c-maincolor -active" href="#">home</a>
-            <a class="action c-orange" href="#">portfolio</a>
-            <a class="action c-blue" href="#">about</a>
-            <a class="action c-magic" href="#">contact</a>
+            <a class="action c-orange" href="#portfolio">portfolio</a>
+            <a class="action c-blue" href="/about.html">about</a>
+            <a class="action c-magic" href="#contact">contact</a>
         </div>
     </nav>
     <!-------- Header -------->
@@ -34,13 +34,13 @@
         <div class="photo-me">
             <div class="photo-me--card">
                 <img src="assets/eu.jpg" alt="author's photo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Explicabo maxime excepturi quidem soluta inventore quod animi, 
-                        commodi quibusdam.</p>
+                <p class="desc">hello! I'm a self taught software developer from Portugal.<br>
+                    i love create minimalistic web applications, from front to back end.
+                </p>
             </div>
             <div class="btn-list">
-                <a class="btn">hire me</a>
-                <a href="#portfolio" class="btn">check my work</a>
+                <a href="#contact" class="btn">hire me</a>
+                <a href="#portfolio" class="btn">my work</a>
             </div>
         </div>
         <a class="down-arrow" href="#portfolio"><i class="fas fa-angle-down"></i></a>
@@ -49,37 +49,46 @@
     <section id="portfolio">
         <div class="portfolio--page">
             <h2 class="title"> Portfolio</h2>
-            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quasi distinctio nobis provident
-                 deleniti iste deserunt sint fuga. Sed iusto pariatur et rem fuga totam, adipisci saepe nihil hic
-                  nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, corrupti? Architecto sit
-                   possimus asperiores amet.
+            <p class="desc">I love to create applications that challenge myself, and so i've created some
+                well rounded applications.<br> These are my top 3, if you are intrested in seeing more of my work
+                check out the about page.
             </p>
 
             <div class="portfolio--page__projects">
                 <a href="#" class="project">
+                    <div class="ribon"><div class="bookmark"></div></div>
                     <img src="assets/thumbnails/numbers-money-calculating-calculation.jpg">
                     <p>web app * react * node.js</p>
-                    <h3>Contas</h3>
+                    <h3 class="desc">Contas</h3>
                     <p>a spendings application.</p>
                 </a>
                 <a href="#" class="project">
+                    <div class="ribon"><div class="bookmark"></div></div>
                     <img src="assets/thumbnails/numbers-money-calculating-calculation.jpg">
-                    <p>web app * react * node.js</p>
-                    <h3>Contas</h3>
-                    <p>a spendings application.</p>
+                    <p>web app * bootstrap * jQuery</p>
+                    <h3 class="desc">PRIME</h3>
+                    <p>an e-commerce web application.</p>
                 </a>
                 <a href="#" class="project">
+                    <div class="ribon"><div class="bookmark"></div></div>
                     <img src="assets/thumbnails/numbers-money-calculating-calculation.jpg">
                     <p>web app * react * node.js</p>
-                    <h3>Contas</h3>
-                    <p>a spendings application.</p>
+                    <h3 class="desc">Code Review</h3>
+                    <p>social network to post code snippes.</p>
                 </a>
             </div>
-            <a href="#" class="btn">see more...</a>
+            <a href="/about.html" class="btn">see more...</a>
             <div class="more-info">
-                <h2>also check out »</h2>
-                <a href="https://github.com/sikozonpc" target="_blank" class="btn btn-dark">Github</a>
-                <a href="#" class="btn btn-orange">CodePen</a>
+                <h2 class="sub-title">also check out »</h2>
+                <a style="font-size: 2rem;text-decoration: none; color:inherit;margin-right: 35px;"
+                     href="https://github.com/sikozonpc" target="_blank">
+                     <i class="fab fa-github"></i></i>Github
+                </a>
+                <a 
+                    style="font-size: 2rem;text-decoration: none; color:inherit;"
+                     href="https://codepen.io/sikozonpc/" target="_blank">
+                     <i  class="fab fa-codepen"></i>CodePen
+                </a>
             </div>
         </div>
     </section>
@@ -110,6 +119,7 @@
                     <li>Adobe Xd CC</li>
                 </ul>
             </div>
+            <a style="margin-top: 100px" href="#" class="btn btn-orange">see resume</a>
         </div>
     </section>
     <!------ Contact -------->  
@@ -123,8 +133,18 @@
                     placeholder="Subject"
                     form="contact-form" 
                     rows="8" cols="50"></textarea>
+                <a href="#" class="btn btn-orange">submit &#9786;</a>
             </form>
         </div>
     </section>
+    <footer id="socials">
+        <div class="socials-list">
+            <a href="https://www.linkedin.com/in/tiago-ferreira-20701a138/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/sikozonpc" target="_blank"><i class="fab fa-github"></i></i></a>
+            <a href="https://twitter.com/tiago_taquelim" target="_blank"><i class="fab fa-twitter"></i></i></a>
+        </div>
+        <hr style="width: 50%;">
+        <p class="desc signature">drawn with care by me <a href="https://twitter.com/tiago_taquelim" target="_blank">@tiago_taquelim</a></p>
+    </footer>
 </body>
 </html>
