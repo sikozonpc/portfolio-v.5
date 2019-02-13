@@ -1,0 +1,18 @@
+
+#projects {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 100px;
+    margin-top: 100px;
+
+    box-sizing: border-box;
+}
+
+.logo-css {
+    width: 100px;
+    height: 100px;
+
+}

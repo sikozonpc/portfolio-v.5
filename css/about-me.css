@@ -13,25 +13,26 @@
     padding: 20px !important;
     line-height: 30px;
     align-items: flex-start !important;
+    
 }
 .container-box {
     background-color: whitesmoke;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     margin-bottom: 45px;
     padding: 8px;
     box-sizing: border-box;
 }
     #about-me .content {
-        width: 60%;   
+        width: 65%;   
         box-sizing: border-box;
     }
 
     #about-me .sidebar {
         padding: 25px;
-        height: 250px;
+        padding-top: 0;
         width: 30%;
     }
     .sidebar-photo img{

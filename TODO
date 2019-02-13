@@ -1,10 +1,14 @@
 
 Todos:
   ✔ finish `Index` page; @done(19-02-13 16:50)
-  ☐ Fix all english typos;
-  ☐ Mobile friendly;
+  ☐ Fix all english typos; @low 
+  ☐ Mobile friendly; @critical 
   Finish `Porfolio` page:
-    ☐ Remake the project cards.
-  ☐ Finish `About` page;
+    ✔ Create diffrent sections for the courses and projects done. @done(19-02-13 22:41)
+    ✔ Remake the project cards. @done(19-02-13 22:41)
+  ✔ Finish `About` page; @done(19-02-13 22:08)
   ☐ Finish `Certefications` page;
-  ☐ Navbar responsive;
+  ☐ JS - Navbar responsive;
+  ☐ JS - to top navigation;
+  
+  ☐ Fix the skillset tabel alignment.
