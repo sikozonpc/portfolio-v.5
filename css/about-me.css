@@ -7,6 +7,7 @@
    
    margin-left: 50px;
    margin-right: 50px;
+   box-sizing: border-box;
 }
 .container-box {
     background-color: whitesmoke;
@@ -16,9 +17,11 @@
     align-items: center;
     margin-bottom: 45px;
     padding: 8px;
+    box-sizing: border-box;
 }
     #about-me .content {
         width: 60%;   
+        box-sizing: border-box;
     }
 
     #about-me .sidebar {
@@ -30,6 +33,10 @@
         border-radius: 100px;
     }
 
-    .qualifications {
-        
+    .courses-list {
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+    .courses p > a {
+        color: rgb(94, 8, 151);
     }
