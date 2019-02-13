@@ -9,6 +9,11 @@
    margin-right: 50px;
    box-sizing: border-box;
 }
+.content {
+    padding: 20px !important;
+    line-height: 30px;
+    align-items: flex-start !important;
+}
 .container-box {
     background-color: whitesmoke;
     display: flex;
