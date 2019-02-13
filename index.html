@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/skillset.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <!-------- Navbar -------->
@@ -76,9 +78,52 @@
             <a href="#" class="btn">see more...</a>
             <div class="more-info">
                 <h2>also check out »</h2>
-                <a href="#" class="btn btn-dark">Github</a>
+                <a href="https://github.com/sikozonpc" target="_blank" class="btn btn-dark">Github</a>
                 <a href="#" class="btn btn-orange">CodePen</a>
             </div>
+        </div>
+    </section>
+    <!-------- Skillset -------->
+    <section id="skillset">
+        <div class="skills--page">
+            <h2 class="title">Skillset</h2>
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni necessitatibus possimus dolores, soluta non fuga veritatis molestias consectetur? Ducimus, et!</p>
+            <div class="skills-table">
+                <ul>
+                    <p class="desc">front-end</p>
+                    <li>HTML</li>
+                    <li>CSS & Sass</li>
+                    <li>Bootstrap</li>
+                    <li>React / Redux</li>
+                </ul>
+                <ul>
+                    <p class="desc">back-end</p>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>C#</li>
+                </ul>
+                <ul>
+                    <p class="desc">tools</p>
+                    <li>Linux and Windows Terminals</li>
+                    <li>Visual Studio</li>
+                    <li>Git command line</li>
+                    <li>Adobe Xd CC</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!------ Contact -------->  
+    <section id="contact">
+        <div class="contact--page">
+            <h2 class="title contact">contact</h2>
+            <form name="contact-form" class="contact-form">
+                <input required name="name" type="text" placeholder="Name">
+                <input required name="email" type="email" placeholder="Email">
+                <textarea required name="comment"
+                    placeholder="Subject"
+                    form="contact-form" 
+                    rows="8" cols="50"></textarea>
+            </form>
         </div>
     </section>
 </body>
