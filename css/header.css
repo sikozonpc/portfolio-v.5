@@ -52,8 +52,8 @@
         }
             .photo-me--card > img {
                 border-radius: 100px;
-                width: 150px;
-                height: 150px;
+                width: 30%;
+                height:  30%;
                 margin-right: 15px;
             }
         .btn-list {
@@ -94,4 +94,38 @@
             width: 100%; 
             z-index: -2;
         }
-    
+
+/******* Media queries ********/
+@media (max-width: 900px){
+    .down-arrow {
+        display: none;
+    }
+    .header { 
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .photo-me {
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+@media (max-width: 430px){
+    .down-arrow {
+        display: none;
+    }
+    .header { 
+        flex-flow: column;
+    }
+    .intro-text { 
+        padding-left: 25px;
+        font-size: 2rem;
+    }
+    .photo-me { 
+        width: 100%;
+    }
+    .photo-me--card > img {
+        width: 80px;
+        height: 80px;
+    }
+}

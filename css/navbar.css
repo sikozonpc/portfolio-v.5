@@ -86,3 +86,10 @@
 .action.c-magic::after  {
     background: linear-gradient(90deg,#59C173 ,#a17fe0,#5d26c1);
 }
+
+/******* Media queries ********/
+@media (max-width: 430px){
+    .nav-items {
+        display: none;
+    }
+}

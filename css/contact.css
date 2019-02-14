@@ -102,3 +102,16 @@
         color: blue;
         text-decoration: none;
     }
+
+/******* Media queries ********/
+@media (max-width: 430px){
+    #contact {
+        margin: 0 30px;
+        margin-bottom: 50px;
+    }
+    #socials .socials-list {
+        display: flex;
+        flex-flow: row;
+    }
+
+}

@@ -18,12 +18,18 @@
         align-items: center;
         padding: 10px;
 
+        width: 100%;
+        max-width: 1200px;
+
         background-color: whitesmoke;
         padding-bottom: 200px;
 
         /* Styles to distinguish sheets from one another */
         box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
         border: 1px solid #bbb;
+    }
+    .portfolio--page {
+        padding-bottom: 100px;
     }
  
     .portfolio--page::before,
@@ -94,35 +100,23 @@
     opacity: 0.9;
 }
 
-.ribon {
-    position: relative;
-    background: transparent;
-    transform: translateY(-10px);
-    opacity: 0;
-    transition: all 300ms ease-in;
-}
-.bookmark{
-    background: #b00;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b00), color-stop(100%,#900));
-    background-image: -webkit-linear-gradient(top, #b00 0%, #900 100%);
-    background-image: -moz-linear-gradient(top, #b00 0%, #900 100%);
-    background-image: -o-linear-gradient(top, #b00 0%, #900 100%);
-    background-image: -ms-linear-gradient(top, #b00 0%, #b00 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b00', endColorstr='#900',GradientType=0 );
-    background-image: linear-gradient(top, #b00 0%, #900 100%);
-    
-    height:30px;
-    position:absolute;
-    top:0;right:-160px;
-    width:20px;
-  }
-  
-  .bookmark:after{
-      content:'';
-      display:block;
-      border:10px solid transparent;
-      border-bottom-color:
-      #eee;
-      position:absolute;
-      bottom:0;
+
+/******* Media queries ********/
+@media (max-width: 430px){
+    #portfolio {
+        margin: 100px 30px;
     }
+    .project img{
+        width: 250px;
+        height: 150px;
+    }
+    .portfolio--page {
+        padding-bottom: 100px;
+
+    }
+    .more-info {
+        transform: scale(0.80);
+        top:99%;
+        left: 0%;
+    }
+}
