@@ -75,6 +75,7 @@
 @media (max-width: 430px){
     #skillset {
         margin: 200px 30px;
+        width: 100%;
     }
     .skills--page{
         padding-bottom: 100px;
