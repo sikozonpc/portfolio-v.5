@@ -56,6 +56,9 @@
                 height: 100%;
                 margin-right: 15px;
             }
+            .photo-me--card > .desc {
+                line-height: 25px;
+            }
         .btn-list {
             align-self: flex-end;
         }

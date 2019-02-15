@@ -12,5 +12,6 @@ Todos:
   ☐ JS - to top navigation; 
   
   ✔ Fix the skillset tabel alignment. @done(19-02-14 12:04)
-  ☐ Create single project page;
+  ✔ Create single project page; @done(19-02-15 13:39) @low PRIME page todo
   ☐ Submit form fucntionality;
+  ☐ Form `:focus` border gradient;

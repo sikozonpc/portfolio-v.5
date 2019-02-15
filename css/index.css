@@ -175,6 +175,7 @@ html {
     font-size: 1.1rem;
     position: relative;
     margin-left: 15px;
+    line-height: 25px;
 }
     .desc::after {
         content: "";
@@ -194,6 +195,12 @@ html {
     border-radius: 10px;
 }
     
+.marked-blue {
+    background: #333;
+    color: rgb(98, 167, 245);
+    padding: 10px;
+    border-radius: 10px;
+}
 .f-1 {
     font-size: 1.15rem !important;
 }
