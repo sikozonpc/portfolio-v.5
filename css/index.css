@@ -68,6 +68,27 @@ html {
         background:  linear-gradient(90deg,#9028d4dc, #fd1d1dcb, #e99219e1);
         color: #fff;
     }
+.btn-see-code {
+    background: linear-gradient(90deg,#333, #555);
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    font-size: 17px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1),
+         0 -100px 0 transparent inset;
+
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+    .btn-see-code:hover {
+        background: linear-gradient(90deg,#333, #555);
+        color: rgb(226, 225, 225);
+    }
 /***** Scroll arrow down ******/
 .down-arrow {
     color: inherit;
@@ -166,6 +187,12 @@ html {
 
     }
 
+.marked {
+    background: #555;
+    color: #fff;
+    padding: 3px;
+    border-radius: 10px;
+}
     
 .f-1 {
     font-size: 1.15rem !important;

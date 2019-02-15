@@ -1,0 +1,51 @@
+.project-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+    .project-wrapper * {
+        box-sizing: border-box;
+    }
+    .showcases {
+        width: 80%;
+
+    }
+    .techs {
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        padding: 50px;
+        width: 100%;
+        background: #333;
+        color: #fff;
+
+    }
+        .techs > ul {
+            align-self: flex-start;
+            margin: 10px 25px;
+            line-height: 30px;
+        }
+        .techs ul > p {
+            color: rgb(98, 167, 245);
+        }
+    
+
+.-active{
+    margin-right: 100px !important;
+    font-size: 1.5rem !important;
+    padding: 5px;
+}
+
+
+.title {
+    margin-bottom: 50px;
+}
+.sub-title {
+    align-self: flex-start;
+    margin-left: 25px;
+}
