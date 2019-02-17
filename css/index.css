@@ -8,6 +8,8 @@ body {
 }
 html {
     scroll-behavior: smooth;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 .-active {
@@ -176,6 +178,8 @@ html {
     position: relative;
     margin-left: 15px;
     line-height: 25px;
+
+
 }
     .desc::after {
         content: "";
@@ -183,6 +187,19 @@ html {
         height: 100%;
         width: 4px;
         background: linear-gradient(#833ab4, #fd1d1d);
+        top:0;
+        left:-15px;
+
+    }
+.desc-sub {
+    position: relative;
+}
+    .desc-sub::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 4px;
+        background: linear-gradient(90deg,#b3ffab, #12fff7);
         top:0;
         left:-15px;
 
@@ -196,8 +213,8 @@ html {
 }
     
 .marked-blue {
-    background: #333;
-    color: rgb(98, 167, 245);
+    background: rgb(40, 44, 52);
+    color: #fff;
     padding: 10px;
     border-radius: 10px;
 }
@@ -206,4 +223,9 @@ html {
 }
 .f-2 {
     font-size: 1.5rem !important;
+}
+
+.important-text {
+    font-size: 1.1rem;
+    margin-top:0;
 }
