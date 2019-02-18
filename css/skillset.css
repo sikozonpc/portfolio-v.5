@@ -74,11 +74,15 @@
 /******* Media queries ********/
 @media (max-width: 430px){
     #skillset {
-        margin: 200px 30px;
+        margin-bottom: 50px;
+        margin: 0;
         width: 100%;
     }
+    .skills--page::after, .skills--page::before {
+        display: none;
+    }
     .skills--page{
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     .skills-table {
         flex-flow: column wrap;

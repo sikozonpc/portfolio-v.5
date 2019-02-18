@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiago Taquelim | Portfolio</title>
+     <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Css styles -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -16,13 +18,16 @@
 </head>
 <body>
     <!-------- Navbar -------->
-    <nav class="nav">
+    <nav class="nav" >
         <a href="/index.html" class="logo">tiago.taquelim</a>
-        <div class="nav-items">
-            <a class="action c-maincolor " href="/index.html">home</a>
-            <a class="action c-orange -active" href="/portfolio.html">portfolio</a>
+        <div class="nav-items topnav" id="navbar">
+            <a class="action c-maincolor" href="./index.html">home</a>
+            <a class="action c-orange  -active" href="#">portfolio</a>
             <a class="action c-blue" href="/about.html">about</a>
-            <a class="action c-magic" href="/index.html#contact">contact</a>
+            <a class="action c-magic" href="./index.html#contact">contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">
+                <i class="fa fa-bars" style="color: black; font-size: 2rem;"></i>
+            </a>
         </div>
     </nav>
     <section id="projects">
@@ -91,5 +96,7 @@
         </div>
        
     </section>
+     <!-- Javascript -->
+     <script src="./js/navbar.js"></script>
 </body>
 </html>

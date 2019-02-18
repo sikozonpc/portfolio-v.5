@@ -7,9 +7,11 @@
     padding-top: 35px;
 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     justify-content: space-between;
-    align-items: center;     
+    align-items: center;   
+    
+    width: 96%;
 }
 .nav a {
     text-decoration: none;
@@ -18,9 +20,9 @@
     color: inherit;
     position: relative;
 }
-
     .nav-items {
         margin-right: 130px;
+    
     }
 
         .nav-items > .action::after {
@@ -87,9 +89,69 @@
     background: linear-gradient(90deg,#59C173 ,#a17fe0,#5d26c1);
 }
 
+
+/******** Code for the responsive navigation *******/
+
+
+.topnav .icon {
+    display: none;
+    position: absolute;
+    top: 3%;
+    right: 0;
+  }
+
 /******* Media queries ********/
-@media (max-width: 430px){
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 890px) {
     .nav-items {
+        margin-right: 0;
+    }
+    .logo {
+        font-size: 2rem !important;
+    }
+    .nav {
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .topnav a {
+        display: none;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .topnav a.icon {
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 890px) {
+    .topnav.responsive {
+        margin-top: 30px;
+        width: 100%;
+    }
+ 
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      color: #333;
+      text-align: left;
+    }
+    .topnav.topnav.responsive .action {
+        background-color: #f0f0f0;
+        margin:0;
+        font-size: 1.3rem;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.836);
+    }
+    .topnav.topnav.responsive a::after {
         display: none;
     }
+  }
+@media (max-width: 430px){
+    
 }

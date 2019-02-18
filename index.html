@@ -17,13 +17,16 @@
 </head>
 <body>
     <!-------- Navbar -------->
-    <nav class="nav">
+    <nav class="nav" >
         <a href="#" class="logo">tiago.taquelim</a>
-        <div class="nav-items">
+        <div class="nav-items topnav" id="navbar">
             <a class="action c-maincolor -active" href="#">home</a>
             <a class="action c-orange" href="/portfolio.html">portfolio</a>
             <a class="action c-blue" href="/about.html">about</a>
             <a class="action c-magic" href="#contact">contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">
+                <i class="fa fa-bars" style="color: black; font-size: 2rem;"></i>
+            </a>
         </div>
     </nav>
     <!-------- Header -------->
@@ -45,15 +48,16 @@
         </div>
         <a class="down-arrow" href="#portfolio"><i class="fas fa-angle-down"></i></a>
     </header>
-       <!-------- Portfolio -------->
+    <!-------- Portfolio -------->
     <section id="portfolio">
         <div class="portfolio--page">
             <h2 class="title"> Portfolio</h2>
-            <p class="important-text">I love to create applications that challenge myself, and so I've created some
+            <p class="desc">I love to create applications that challenge myself, and so I've created some
                 well rounded applications.<br> 
+                These are my top 3, if you are intrested in seeing more of my work
+                    check out the <b>portfolio page.</b>
             </p>
-            <p class="important-text">These are my top 3, if you are intrested in seeing more of my work
-                    check out the <b>portfolio page.</b></p>
+           
 
             <div class="portfolio--page__projects">
                 <a href="/projects/contasapp.html" class="project">
@@ -145,5 +149,8 @@
         <hr style="width: 50%;">
         <p class="desc signature">drawn with care by me <a href="https://twitter.com/tiago_taquelim" target="_blank">@tiago_taquelim</a></p>
     </footer>
+
+    <!-- Javascript -->
+    <script src="js/navbar.js"></script>
 </body>
 </html>

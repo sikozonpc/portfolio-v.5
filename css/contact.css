@@ -60,6 +60,10 @@
         border: none;
         font-size: 18px;
         -webkit-appearance: none;
+        border: 1px solid #eee;
+    }
+    .contact-form input:focus, textarea:focus {
+        outline-color: #fd1d1dcb;
     }
 
     .contact-form textarea {

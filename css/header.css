@@ -5,6 +5,7 @@
     justify-content: space-evenly;
 
     margin: 120px auto;
+    box-sizing: border-box;
 }
     .photo-me {
         position: relative;
@@ -19,6 +20,8 @@
 
         box-shadow: 4px 4px 4px rgba(0,0,0,0.1),
         4px -100px 0 transparent inset;
+
+        box-sizing: border-box;
     }
         .photo-me::after {
             content: "";
@@ -70,6 +73,7 @@
         position: relative;
         font-size: 2.5rem;
         margin-top: -70px;
+    
     }
         .intro-text::before {
             content: "";
@@ -121,14 +125,21 @@
         flex-flow: column;
     }
     .intro-text { 
-        padding-left: 25px;
-        font-size: 2rem;
+        font-size: 1.7rem;
+        padding: 0;
+    }
+    .intro-text::after {
+        top: 40px;
+        left: 10px;
+    }
+    .intro-text::before {
+        top: 40px;
+        left: 10px;
     }
     .photo-me { 
         width: 100%;
     }
     .photo-me--card > img {
-        width: 80px;
-        height: 80px;
+        display: none;
     }
 }

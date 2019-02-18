@@ -5,12 +5,17 @@ body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     color: #333;
+    
 }
 html {
     scroll-behavior: smooth;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
 }
+html *:focus {
+    outline-color: #fd1d1dcb;
+}
+
 
 .-active {
     color: #000 !important;
