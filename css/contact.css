@@ -108,7 +108,7 @@
     }
 
 /******* Media queries ********/
-@media (max-width: 430px){
+@media screen and (max-width: 430px){
     #contact {
         margin: 0 30px;
         margin-bottom: 50px;
