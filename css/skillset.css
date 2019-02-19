@@ -72,7 +72,7 @@
 }
 
 /******* Media queries ********/
-@media screen and (max-width: 430px){
+@media screen and (max-width: 650px){
     #skillset {
         margin-bottom: 50px;
         margin: 0;

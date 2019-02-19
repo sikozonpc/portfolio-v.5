@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Palanquin:300');
 
 body {
     padding: 0;
@@ -178,13 +179,17 @@ html *:focus {
         transition: 200ms all linear;
     }
 
+.thin-text {
+    font-family: 'Palanquin', sans-serif;
+    line-height: 1;
+    font-size: 21px;
+}
+
 .desc {
     font-size: 1.1rem;
     position: relative;
     margin-left: 15px;
-    line-height: 25px;
-
-
+    line-height: 1.5;
 }
     .desc::after {
         content: "";
