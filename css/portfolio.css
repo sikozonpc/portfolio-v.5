@@ -81,6 +81,7 @@
         color: inherit;
         width:350px;
 
+
         -webkit-box-shadow: 5px 5px 18px #ededed;
          box-shadow: 5px 5px 18px #ededed;
     }
@@ -92,17 +93,10 @@
             -webkit-box-shadow: 4px 4px 10px rgb(167, 157, 157);
             box-shadow: 4px 4px 10px rgb(199, 194, 194);
         }
-        .project:hover > .ribon {
-            opacity: 1;
-            transform: translateY(0);
-        }
 
         .project p {
             margin:2px;
-   
-            font-family: 'Palanquin', sans-serif;
-            line-height: 1;
-            font-size: 19px;
+
             margin-left: 15%;
             margin-bottom: 0;
             color: #666;
@@ -123,10 +117,10 @@
             margin-bottom:0px;
             margin-top: 0;
             padding-top: 0;
+            color: #333;
         }
         .project p:last-child {
-            padding-bottom:10px;
-         
+            padding-bottom:30px;
         }
 
 .more-info {

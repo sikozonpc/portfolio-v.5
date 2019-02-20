@@ -97,6 +97,34 @@ html *:focus {
         background: linear-gradient(90deg,#333, #555);
         color: rgb(226, 225, 225);
     }
+.btn-border {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border: 4px solid transparent;
+    
+    border-image: linear-gradient(90deg,#833ab4dc, #fd1d1dcb, #fcb045e1);
+    border-image-slice: 1;
+    text-decoration: none;
+    color:#333;
+    transition: all 0.3s ease-in-out;
+}
+    .btn-border:hover {
+        background: linear-gradient(90deg,#833ab4dc, #fd1d1dcb, #fcb045e1);
+        color: white;
+ 
+    }
+.btn-simple {
+    display: inline-block;
+    color: #fff;
+    background-color: #444;
+    text-decoration: none;
+    margin-top: 50px;
+}
 /***** Scroll arrow down ******/
 .down-arrow {
     color: inherit;
@@ -215,6 +243,8 @@ html *:focus {
 
     }
 
+/***** Modifiers *****/
+
 .marked {
     background: #555;
     color: #fff;
@@ -233,6 +263,10 @@ html *:focus {
 }
 .f-2 {
     font-size: 1.5rem !important;
+}
+.small {
+    padding: 10px 20px;
+    font-size: 1.2rem;
 }
 
 .important-text {
