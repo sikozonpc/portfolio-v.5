@@ -75,8 +75,12 @@
         color: #333;
         font-size: 1.7rem;
     }
-    .skills-table .front{
-        color: #ff8888;
+    /* Specific styles for the front-end table */
+    .skills-table .front {
+        box-shadow: 6px 6px 6px rgba(0,0,0,0.1);
+    }
+    .skills-table .front-title{
+        color: darkcyan;
     }
     .skills-table li {
         font-size: 1.1rem;
@@ -89,6 +93,16 @@
     }
 
 /******* Media queries ********/
+@media screen and (max-width: 840px){
+    .skills-table {
+        flex-flow: column wrap;
+    }
+    .skills-table ul {
+        align-self: center;
+        justify-self: center;
+        width: 80%;
+    }
+}
 @media screen and (max-width: 650px){
     #skillset {
         margin-bottom: 50px;
@@ -103,6 +117,11 @@
     }
     .skills-table {
         flex-flow: column wrap;
+    }
+    .skills-table ul {
+        align-self: center;
+        justify-self: center;
+        width: 80%;
     }
 
 }

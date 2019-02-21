@@ -16,7 +16,7 @@
         background: whitesmoke;
         padding: 15px;
 
-        width: 40%;
+        width: 41%;
 
         box-shadow: 4px 4px 4px rgba(0,0,0,0.1),
         4px -100px 0 transparent inset;
@@ -64,6 +64,7 @@
             }
         .btn-list {
             align-self: flex-end;
+            margin-top: 15px;
         }
         .btn-list > a {
             margin-right: 15px;
