@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Palanquin:300');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
 body {
     padding: 0;
@@ -15,6 +15,10 @@ html {
 }
 html *:focus {
     outline-color: #fd1d1dcb;
+}
+
+h2 {
+    font-weight: 600;
 }
 
 
@@ -76,27 +80,6 @@ html *:focus {
         background:  linear-gradient(90deg,#9028d4dc, #fd1d1dcb, #e99219e1);
         color: #fff;
     }
-.btn-see-code {
-    background: linear-gradient(90deg,#333, #555);
-    color: #fff;
-    padding: 5px;
-    display: inline-block;
-    border: 0;
-    font-size: 17px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 500;
-    cursor: pointer;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.1),
-         0 -100px 0 transparent inset;
-
-    transition: all 0.3s ease;
-    box-sizing: border-box;
-}
-    .btn-see-code:hover {
-        background: linear-gradient(90deg,#333, #555);
-        color: rgb(226, 225, 225);
-    }
 .btn-border {
     position: relative;
     z-index: 1;
@@ -119,12 +102,19 @@ html *:focus {
         color: white;
         transform: scale(1.1);
     }
+
 .btn-simple {
     display: inline-block;
     color: #fff;
     background-color: #444;
     text-decoration: none;
+    border:2px solid #444;
+    padding: 5px 10px;
 }
+    .btn-simple:hover {
+        background-color: transparent;
+        color: #333;
+    }
 
 /***** Scroll arrow down ******/
 .down-arrow {
@@ -230,6 +220,8 @@ html *:focus {
         left:-15px;
 
     }
+
+
 .desc-sub {
     position: relative;
 }
@@ -264,6 +256,13 @@ html *:focus {
 }
 .f-2 {
     font-size: 1.5rem !important;
+    font-weight: 600;
+}
+.f-3 {
+    font-size: 2rem !important;
+    font-weight: bold;
+    align-self: flex-start;
+
 }
 .small {
     padding: 10px 20px;

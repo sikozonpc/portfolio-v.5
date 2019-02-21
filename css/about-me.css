@@ -41,12 +41,16 @@
         border-radius: 100px;
     }
 
-    .courses-list {
+    .courses-list > p {
         align-items: flex-start;
-        padding-left: 30px;
+        margin-left: 0px;
     }
     .courses p > a {
-        color: rgb(94, 8, 151);
+        color: darkcyan;
+    }
+
+    .qualifications a{
+        color: darkcyan;
     }
 
 /******* Media queries ********/
