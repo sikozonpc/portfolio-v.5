@@ -13,11 +13,11 @@ Todos:
   ✔ Create single project page; @done(19-02-15 13:39) @low PRIME page todo
   ✘ Form `:focus` border gradient; @cancelled(19-02-18 13:39)
   ☐ Fix all english typos; @high  
-  ☐ JS - to top navigation;                             @today 
+  ☐ JS - to top navigation;                              
   ✘ Submit form fucntionality; @cancelled(19-02-19 12:49)
-  ✔ Remake `project page template`, it's too unreaddle. @today @done(19-02-21 11:54)
+  ✔ Remake `project page template`, it's too unreaddle.  @done(19-02-21 11:54)
   ✔ Make new `Project boxes` @done(19-02-19 12:46)
-  ☐ Make `Certefications page` responsive and pretty. @critical 
+  ✔ Make `Certefications page` responsive and pretty. @done(19-02-22 11:33)
   ✔ Remake the `courses taken` markedown. @done(19-02-21 12:07)
   ☐ Revise the whole site for responsiveness.
   ☐ Hook Resume to the button.

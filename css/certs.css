@@ -1,0 +1,19 @@
+#certs {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 100px;
+    margin-top: 200px;
+
+    box-sizing: border-box;
+}
+
+/******* Media queries ********/
+@media screen and (max-width: 650px){
+    #certs {
+        margin: 0;
+        width: 100%;
+    }
+}
