@@ -13,7 +13,7 @@ Todos:
   ✔ Create single project page; @done(19-02-15 13:39) @low PRIME page todo
   ✘ Form `:focus` border gradient; @cancelled(19-02-18 13:39)
   ☐ Fix all english typos; @high  
-  ☐ JS - to top navigation;                              
+  ✔ JS - to top navigation; @done(19-02-22 19:11)
   ✘ Submit form fucntionality; @cancelled(19-02-19 12:49)
   ✔ Remake `project page template`, it's too unreaddle.  @done(19-02-21 11:54)
   ✔ Make new `Project boxes` @done(19-02-19 12:46)

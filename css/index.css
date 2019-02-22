@@ -239,12 +239,17 @@ h2 {
 /***** Modifiers *****/
 
 .marked {
-    background: #555;
-    color: #fff;
-    padding: 3px;
-    border-radius: 10px;
+    background-color: rgba(187,239,253,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #1a1a1a;
 }
     
+.marked-a {
+    background-color: rgba(100, 206, 236, 0.404) !important;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 .marked-blue {
     background: rgb(40, 44, 52);
     color: #fff;
@@ -283,12 +288,13 @@ h2 {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
+    background:  #333;
+    color: #fff; /* Text color */
+    font-size: 2rem;
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    padding: 7px; /* Some padding */
+    width: 50px;
+    border-radius: 200px; /* Rounded corners */
   }
   
   #topButton:hover {

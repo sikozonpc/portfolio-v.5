@@ -13,7 +13,7 @@ function responsiveNavbar() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+  if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
     document.getElementById("topButton").style.display = "block";
   } else {
     document.getElementById("topButton").style.display = "none";
