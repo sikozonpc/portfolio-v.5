@@ -12,7 +12,7 @@ Todos:
   ✔ Fix the skillset tabel alignment. @done(19-02-14 12:04)
   ✔ Create single project page; @done(19-02-15 13:39) @low PRIME page todo
   ✘ Form `:focus` border gradient; @cancelled(19-02-18 13:39)
-  ☐ Fix all english typos; @high  
+  ✔ Fix all english typos; @high @done(19-02-26 14:27)
   ✔ JS - to top navigation; @done(19-02-22 19:11)
   ✘ Submit form fucntionality; @cancelled(19-02-19 12:49)
   ✔ Remake `project page template`, it's too unreaddle.  @done(19-02-21 11:54)
