@@ -81,6 +81,9 @@
         color: inherit;
         width:350px;
 
+        position: relative;
+        cursor: pointer;
+
         -webkit-box-shadow: 5px 5px 18px #ededed;
          box-shadow: 5px 5px 18px #ededed;
     }
@@ -128,6 +131,21 @@
     top: 100%;
     opacity: 0.9;
 }
+
+
+.wip-filter {
+    filter: brightness(0.5);
+    position: relative;
+
+}
+.fa-tools {
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    right: 43%;
+    top: 70px;
+}
+
 
 
 /******* Media queries ********/

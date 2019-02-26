@@ -104,7 +104,7 @@
         }
 
 /******* Media queries ********/
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1050px){
     .down-arrow {
         display: none;
     }
