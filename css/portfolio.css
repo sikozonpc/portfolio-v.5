@@ -95,6 +95,13 @@
             -webkit-box-shadow: 4px 4px 10px rgb(167, 157, 157);
             box-shadow: 4px 4px 10px rgb(199, 194, 194);
         }
+        .project:hover .fa-search {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        .project:hover img{
+            filter: brightness(0.8);
+        }
 
         .project p {
             margin:2px;
@@ -146,6 +153,24 @@
     top: 70px;
 }
 
+.fa-search {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+    transform: translateY(-100vw);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    z-index: 10;
+}
+
+/* special class to align properly on the small projects boxes */
+.align-center {
+    top: 25% !important;
+}
+
 
 
 /******* Media queries ********/
@@ -153,7 +178,7 @@
     #portfolio, #projects {
         margin: 0;
         width: 100%;
-    }
+     }
     .portfolio--page::after, .portfolio--page::before {
         display: none;
     }
@@ -163,6 +188,7 @@
     .portfolio--page {
         padding-bottom: 100px;
     }
+
     .more-info {
         transform: scale(0.80);
         top:99%;
