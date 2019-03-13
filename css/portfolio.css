@@ -84,8 +84,10 @@
         position: relative;
         cursor: pointer;
 
-        -webkit-box-shadow: 5px 5px 18px #ededed;
-         box-shadow: 5px 5px 18px #ededed;
+        transition: 0.3s all ease;
+
+        -webkit-box-shadow: 5px 5px 18px #9c2626;
+        box-shadow: 5px 5px 18px #ededed;
     }
         .project img {
             width: 100%;

@@ -45,13 +45,10 @@
         align-items: flex-start;
         margin-left: 0px;
     }
-    .courses p > a {
-        color: darkcyan;
+    .courses p > a, .qualifications a  {
+        color: #862dc2;
     }
 
-    .qualifications a{
-        color: darkcyan;
-    }
 
 /******* Media queries ********/
 @media screen and (max-width: 770px){

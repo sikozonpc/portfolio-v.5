@@ -96,7 +96,7 @@ h2 {
     border-image-slice: 1;
     text-decoration: none;
     color:#333;
-    transition: all 0.3s ease-in-out;
+    transition: 0.3s all ease;
 }
     .btn-border:hover {
         background: linear-gradient(90deg,#833ab4dc, #fd1d1dcb, #fcb045e1);
@@ -111,6 +111,8 @@ h2 {
     text-decoration: none;
     border:2px solid #444;
     padding: 5px 10px;
+
+    transition: 0.3s all ease;
 }
     .btn-simple:hover {
         background-color: transparent;
@@ -164,8 +166,10 @@ h2 {
 
 .title {
     position: relative;
-    font-size: 2rem;
+    font-size: 34px;
+    font-weight: 400;
     z-index: 2;
+    margin-bottom: 60px;
 }
     .title::after {
         content: "";
