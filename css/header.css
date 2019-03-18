@@ -4,6 +4,7 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
 
+    max-width: 1280px;
     margin: 120px auto;
     box-sizing: border-box;
 }
@@ -16,7 +17,7 @@
         background: whitesmoke;
         padding: 15px;
 
-        width: 41%;
+        max-width: 524px;
 
         box-shadow: 4px 4px 4px rgba(0,0,0,0.1),
         4px -100px 0 transparent inset;
@@ -105,9 +106,6 @@
 
 /******* Media queries ********/
 @media screen and (max-width: 1050px){
-    .down-arrow {
-        display: none;
-    }
     .header { 
         flex-flow: column;
         align-items: center;
