@@ -19,10 +19,11 @@
     margin: 0 20px;
     color: inherit;
     position: relative;
+ 
 }
     .nav-items {
         margin-right: 130px;
-    
+        transition: all 0.3s ease;
     }
 
         .nav-items > .action::after {
@@ -98,7 +99,14 @@
     position: absolute;
     top: 3%;
     right: 0;
+
+    color: #333;
+    font-size: 2rem;
+    transition: 0.3s ease color;
   }
+    .icon:hover {
+        color: gray;
+    }
 
 /******* Media queries ********/
 /* When the screen is less than x pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -116,6 +124,7 @@
         padding: 0;
         padding-top: 20px;
         width: 100%;
+     
     }
     .topnav a {
         display: none;
@@ -127,6 +136,7 @@
     .topnav a.icon {
       display: block;
     }
+   
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -139,16 +149,26 @@
     .topnav.responsive a {
       float: none;
       display: block;
-      color: #333;
       text-align: left;
     }
     .topnav.topnav.responsive .action {
-        background-color: #f0f0f0;
-        margin:0;
-        font-size: 1.3rem;
-        border-bottom: 1px solid rgba(51, 51, 51, 0.836);
+        margin:0;   
+        padding-left: 30px;
+        text-transform: capitalize;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 20px;
+        background: rgb(33, 44, 79);
+        color: #fff;
     }
+        .topnav.topnav.responsive .action:hover {
+            color: rgb(100, 183, 211);
+        }
     .topnav.topnav.responsive a::after {
         display: none;
+    }
+
+    .-active {
+        color: rgb(86, 204, 242) !important;
     }
   }

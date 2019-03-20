@@ -31,7 +31,7 @@
             <a class="action c-blue" href="/about.html">about</a>
             <a class="action c-magic" href="./index.html#contact">contact</a>
             <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">
-                <i class="fa fa-bars" style="color: black; font-size: 2rem;"></i>
+                <i class="fa fa-bars"></i>
             </a>
         </div>
     </nav>
@@ -39,40 +39,64 @@
         <div class="portfolio--page">
             <h2 class="title-main">My own projects</h2>
             <div class="portfolio--page__projects">
-                <a href="/projects/contasapp.html" class="project">
-                    <img src="assets/thumbnails/contas-app.png">
-                    <i class="fas fa-search"></i>
-                    <h3 class="desc">Contas</h3>
-                    <p>An application to register spendings along the months.</p>
-         
-                    <p> React | Node.js | Express | Mongo</p>
-                </a>
-
-                <a  class="project" onclick="showWIPModal()">
-                    <img src="assets/thumbnails/prime-temp.png" 
-                        class="wip-filter">
-                    <i class="fas fa-tools"></i>
-
-                    <h3 class="desc">PRIME</h3>
-                    <p>An e-commerce web application.</p>
-         
-                    <p> Bootstrap | jQuery</p>
-              
-                </a>
-                <div class="modal" id="wip-modal">
-                    <p>Work in progress</p>
-                    <button onclick="hideWIPModal()">OK</button>
+                <div class="project-big">
+                    <div class="project__wrapper">
+                        <a href="/projects/contasapp.html">
+                        <div class="wrapper__upper">
+                            <img src="assets/thumbnails/contas-app.png">
+                            <div class="project-desc">
+                                <p class="type">Project</p>
+                                <h3>Spendigs App</h3>
+                                <p class="app-desc">An application to register spendings along the months.</p>
+                                <p class="skills-covered-title">Skills Covered</p>
+                                <p class="skills-covered">React, Node.js, Express, Mongo</p>
+                            </div>   
+                        </div>
+                        </a>
+                        <div class="wrapper__lower">
+                            <a href="/projects/contasapp.html"> + Check it out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-big">
+                    <div class="project__wrapper">
+                        <a onclick="showWIPModal()">
+                        <div class="wrapper__upper">
+                            <img src="assets/thumbnails/prime-temp.png">
+                            <div class="project-desc">
+                                <p class="type">Project</p>
+                                <h3>PRIME</h3>
+                                <p class="app-desc">An e-commerce web application.</p>
+                                <p class="skills-covered-title">Skills Covered</p>
+                                <p class="skills-covered"> Bootstrap ,jQuery</p>
+                            </div>   
+                        </div>
+                        </a>
+                        <div class="wrapper__lower">
+                            <a onclick="showWIPModal()"> + Check it out</a>
+                        </div>
+                    </div>
                 </div>
 
-                <a href="/projects/codereview.html" class="project">
-                    <img src="assets/thumbnails/code-review-temp.jpg" class="wip-filter">
-                    <i class="fas fa-tools"></i>
-                   
-                    <h3 class="desc">Code Review</h3>
-                    <p>A Web Platform to post & review code snippes.</p>
-         
-                    <p> React | Node.js | Express | Mongo</p>
-                </a>
+                <div class="project-big">
+                    <div class="project__wrapper">
+                        <a href="/projects/codereview.html">
+                        <div class="wrapper__upper">
+                            <img src="assets/thumbnails/code-review-temp.jpg">
+                            <div class="project-desc">
+                                <p class="type">Project</p>
+                                <h3>Code Review</h3>
+                                <p class="app-desc">A Web Platform to post & review code snippes.</p>
+                                <p class="skills-covered-title">Skills Covered</p>
+                                <p class="skills-covered">React, Node.js, Express, Mongo</p>
+                            </div>   
+                        </div>
+                        </a>
+                        <div class="wrapper__lower">
+                            <a href="/projects/codereview.html"> + Check it out</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         
