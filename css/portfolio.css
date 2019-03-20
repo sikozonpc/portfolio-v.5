@@ -76,8 +76,9 @@
         text-decoration: none;
         border-radius: 20px;
         color: inherit;
-        max-width:350px;
-        max-height: 470px;
+        max-width:330px;
+        height: 380px;
+     
         width: 100%;
         margin-top: 0;
         margin-bottom: 1.5rem;

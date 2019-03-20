@@ -14,7 +14,7 @@ html {
     font-style: normal;
     -webkit-font-smoothing: antialiased;
 }
-*, *::before, *::after {
+* {
     box-sizing: border-box;
 }
 html *:focus {
