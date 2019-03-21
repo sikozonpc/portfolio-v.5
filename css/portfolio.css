@@ -93,6 +93,9 @@
 
         box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 40px;
     }
+        .project-small {
+            height: 100% !important;
+        }
         .project img {
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
