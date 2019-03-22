@@ -16,7 +16,9 @@
     height: 100px;
     
     display: none;
+    box-sizing: content-box;
 }
+
 .modal::before {
     content: "";
     position: absolute;
