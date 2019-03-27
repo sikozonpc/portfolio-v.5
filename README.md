@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a8eba3c-9f7c-4d72-a9aa-1a0f3d80c775/deploy-status)](https://app.netlify.com/sites/taquelim/deploys)
+
 # portfolio-v.5
 version 5 of my personal porfolio.
 
