@@ -80,7 +80,9 @@
         box-shadow: 6px 6px 6px rgba(0,0,0,0.1);
     }
     .skills-table .front-title{
-        color: #2690e7;
+        background: linear-gradient(-136deg, #F15D4A 2%, #E934F2 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .skills-table li {
         font-size: 1.1rem;

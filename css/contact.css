@@ -103,7 +103,9 @@
     }
 
     .signature a {
-        color: blue;
+        background: linear-gradient(-136deg, #F15D4A 2%, #E934F2 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         text-decoration: none;
     }
 
