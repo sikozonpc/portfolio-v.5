@@ -143,6 +143,7 @@ h2 {
     .btn-new span {
         background: linear-gradient(-136deg, #F15D4A 2%, #E934F2 70%);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .btn-new:hover {
