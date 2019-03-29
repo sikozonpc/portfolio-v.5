@@ -123,6 +123,7 @@ h2 {
 
 .btn-new {
     display: inline-block;
+    position: relative;
     font-weight: 700;
     border-radius: 100px;
     cursor: pointer;
@@ -145,10 +146,31 @@ h2 {
         -webkit-text-fill-color: transparent;
     }
     .btn-new:hover {
-        border: solid 2px rgba(65, 64, 64, 0.657);
-        box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
-        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        transform: translateY(-3px);
     }
+    .btn-new:active {
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        transform: translateX(-1px);
+    }
+        .btn-new::after {
+            content: "";
+            position: absolute;
+            display: inline-block;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            background-color: #FAFBFC;
+            border-radius: 100px;
+
+            transition: 0.4s all; 
+        }
+            .btn-new:hover::after {
+                transform: scaleX(1.4) scaleY(1.6);
+                opacity: 0;
+            }
 
 .btn-simple {
     display: inline-block;
