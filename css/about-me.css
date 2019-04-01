@@ -40,8 +40,7 @@
         border-radius: 100px;
     }
 
-    .courses-list > p {
-        text-align: center;
+    .courses-list > li {
         max-width: 300px;
         margin-top: 30px;
     }
