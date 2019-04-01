@@ -118,12 +118,12 @@
         .project p {
             color: #525c65;
             margin:2px;
-
+            font-size: 14px;
             margin-left: 15%;
             margin-bottom: 0;
             color: #666;
             padding-top: 10px;
-            padding-bottom: 10px;
+            
          
         }
         .project h3 {

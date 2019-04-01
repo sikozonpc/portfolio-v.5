@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tiago Taquelim / Web Developer </title>
+    <title>Tiago Taquelim | Web Developer </title>
     <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -67,42 +67,50 @@
 
             <div class="portfolio--page__projects">
 
-                <div class="modal" id="wip-modal">
-                    <p>Work in progress</p>
-                    <button onclick="hideWIPModal()">OK</button>
-                </div>
                 <a href="/projects/contasapp.html" class="project">
                     <img src="assets/thumbnails/contas-app.png">
                     <h3 class="desc">Contas</h3>
                     <p>An application to register spendings along the months.</p>
          
-                    <p> React | Node.js | Express | Mongo</p>
+                    <p> 
+                        <span class="badge badge-blue">React</span>
+                        <span class="badge badge-green">Node.js</span>
+                        <span class="badge">Express</span>
+                        <span class="badge badge-greenLight">Mongo</span>
+                        <span class="badge">REST API</span>
+                    </p>
                 </a>
 
-                <a  class="project" onclick="showWIPModal()">
-                    <img src="assets/thumbnails/prime-temp.png" 
-                        class="wip-filter">
-                    <i class="fas fa-tools"></i>
+                <a href="./projects/liquidcloud.html" class="project">
+                    <img src="assets/thumbnails/liquidcloud_preview.png">
 
-                    <h3 class="desc">PRIME</h3>
+                    <h3 class="desc">Liquidcloud</h3>
                     <p>A fully featured e-commerce web application.</p>
          
-                    <p> Bootstrap | jQuery</p>
-              
+                    <p> 
+                        <span class="badge badge-yellow">JS</span>
+                        <span class="badge badge-orange">HTML</span>
+                        <span class="badge badge-blueDark">CSS</span>
+                    </p>
                 </a>
-                <div class="modal" id="wip-modal">
+
+                <div class="modal" id="wip-modal" >
                     <p>Work in progress</p>
                     <button onclick="hideWIPModal()">OK</button>
                 </div>
 
-                <a href="/projects/codereview.html" class="project">
-                    <img src="assets/thumbnails/code-review-temp.jpg" class="wip-filter">
+                <a class="project" onclick="showWIPModal()">
+                    <img src="https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="wip-filter">
                     <i class="fas fa-tools"></i>
                    
-                    <h3 class="desc">Code Review</h3>
+                    <h3 class="desc">Astronomy App</h3>
                     <p>A Web Platform to post & review code snippes.</p>
          
-                    <p> React | Node.js | Express | Mongo</p>
+                    <p> 
+                        <span class="badge badge-blue">React</span>
+                        <span class="badge badge-green">Node.js</span>
+                        <span class="badge">web API</span>
+                    </p>
                 </a>
                 
             </div>

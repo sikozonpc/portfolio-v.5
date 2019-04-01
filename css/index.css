@@ -233,6 +233,37 @@ h2 {
         z-index: 3;
     }
 
+.badge {
+    border-radius: 100px;
+    padding: 1px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 2px 0;
+    background: #555;
+    color: #fff;
+}
+    .badge-blue {
+        background: #00d8ff;
+        color: #333;
+    }
+    .badge-green {
+        background: #215732;
+    }
+    .badge-greenLight {
+        background: #2d994f;
+    }
+    .badge-yellow {
+        background: rgb(224, 221, 7);
+        color: #222;
+    }
+    .badge-orange {
+        background: rgb(224, 110, 17);
+        color: #fff;
+    }
+    .badge-blueDark {
+        background: rgb(47, 84, 248);
+    }
+
 .title {
     position: relative;
     font-size: 34px;
