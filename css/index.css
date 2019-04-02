@@ -416,3 +416,44 @@ h2 {
     background-color: #555; 
     transform: translateY(-10px);
   }
+
+
+.socials-sidebar {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    background: rgba(51, 51, 51, 0.904);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+   
+    display: flex;
+    flex-flow: column;
+    z-index: 999;
+    
+    align-items: center;
+    transition: 0.4s all ease;
+}
+    .socials-sidebar a {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+.fa-github:hover {
+    color: rgb(161, 161, 161);
+}
+.fa-hackerrank:hover {
+    color: rgb(40, 202, 40);
+}
+.fa-twitter:hover {
+    color: rgb(68, 177, 236);
+}
+
+@media (max-width: 720px){
+    .socials-sidebar{
+        transform: translateX(-100%);
+    }
+}
