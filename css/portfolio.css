@@ -64,8 +64,9 @@
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    
+    padding: 20px;
     margin-top: 50px;
 }
     .project {

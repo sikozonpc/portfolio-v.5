@@ -368,10 +368,11 @@ h2 {
 }
 .f-2 {
     line-height: 1.4;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: left;
     font-weight: 700;
-    color: #070E18;
+    color: #333;
+    font-weight: 500;
     margin-block-end: .5em;
 }
 .f-3 {
