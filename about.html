@@ -1,122 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tiago Taquelim / About</title>
-    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
-     <!-- Font Awesome CDN -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-     <!-- Css styles -->
-     <link rel="stylesheet" href="css/index.css">
-     <link rel="stylesheet" href="css/navbar.css">
-     <link rel="stylesheet" href="css/about-me.css">
-</head>
-<body>
-    <!-- To top button -->
-    <button onclick="toTop()" id="topButton" title="Go to top"><i class="fas fa-angle-up"></i></button>
-   
-    <!-------- Navbar -------->
-    <nav class="nav">
-        <a href="/index.html" class="logo">tiago.taquelim</a>
-        <div class="nav-items topnav" id="navbar">
-            <a class="action c-maincolor " href="/index.html">home</a>
-            <a class="action c-orange" href="/portfolio.html">portfolio</a>
-            <a class="action c-blue -active" href="/about.html">about</a>
-            <a class="action c-magic" href="/index.html#contact">contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">
-                <i class="fa fa-bars" ></i>
-            </a>
-        </div>
-    </nav>
-    <section id="about-me">
-        <div class="content container-box">
-            <h2 class="title" style="align-self: center;">About me</h2>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Tiago Taquelim / About</title>
+		<link rel="shortcut icon" type="image/png" href="./favicon.png" />
+		<!-- Font Awesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<!-- Css styles -->
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/about-me.css" />
+	</head>
+	<body>
+		<!-- To top button -->
+		<button onclick="toTop()" id="topButton" title="Go to top">
+			<i class="fas fa-angle-up"></i>
+		</button>
 
-            <p class="f-2">Short version: </p>
-            <div class="marked-blue" style="border-radius: 10px;margin-bottom: 50px;">
-                <p class="f-1">I'm a self-taught software developer, specializing in front-end developmemnt . I started
-                        coding from a young age and since then I've built
-                            lots of projects. What I like the most in coding is the process to solve/create something.</p>    
-            </div>
+		<!-------- Navbar -------->
+		<nav class="nav">
+			<a href="/index.html" class="logo">tiago.taquelim</a>
+			<div class="nav-items topnav" id="navbar">
+				<a class="action c-maincolor " href="/index.html">home</a>
+				<a class="action c-orange" href="/portfolio.html">portfolio</a>
+				<a class="action c-blue -active" href="/about.html">about</a>
+				<a class="action c-magic" href="/index.html#contact">contact</a>
+				<a
+					href="javascript:void(0);"
+					class="icon"
+					onclick="responsiveNavbar()"
+				>
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+		<section id="about-me">
+			<div class="content container-box">
+				<h2 class="title" style="align-self: center;">About me</h2>
 
-           
+				<p class="f-2">Short version:</p>
+				<div
+					class="marked-blue"
+					style="border-radius: 10px;margin-bottom: 50px;"
+				>
+					<p class="f-1">
+						I'm a self-taught software developer, specializing in
+						front-end developmemnt . I started coding from a young
+						age and since then I've built lots of projects. What I
+						like the most in coding is the process to solve/create
+						something.
+					</p>
+				</div>
 
-            <p class="f-2">Long version: <span style="font-size: 0.8rem;">(for the curious ones)</span></p>
-            <h2 class="desc f-1">My background: </h2>
-            <p class="f-1">I've been interacting with computers from a young age, mainly playing games, but thats what
-                brought me into the programming world. I wanted to make games like the ones I played and so from there it all started to unfoald.
-            </p>
-            <p class="f-1">At 16 I beggin <span class="marked">learning Python</span> from a series of lectures that a friend of mine gave me in a pen drive.</p>
-            <p class="f-1">However, at that time I had school, and the time was little, so I spent most of my <span class="marked-a">free time learning to code</span>.</p>
-            <p class="f-1">Time passed... and I've built projects in Python - a <a class="marked-a" href="https://github.com/sikozonpc/Web-Scraper" target="_blank">web scraper</a>, <a href="https://github.com/sikozonpc/Python-Card-Game" target="_blank" class="marked-a">a card game</a>, a student grades program, etc...</p>
-            <p class="f-1">At 18 I was into the <span class="marked" >Microsoft .NET stack</span>, learnt <span class="marked" >c#</span> and the basics of <b>back-end</b> development and <b>http requests</b>.</p>
-            <p class="f-1">Finally, today I can <span class="marked" >code full fledged web apps</span> in JavaScript, mainly using React and Node.js.</p>
-            
-            <h2 class="desc f-1">Why the self-taught route? </h2>
-            <p class="f-1">As explain before, I've learnt alot on my own, and even at school most of the things I learned 
-                were on my own. So has time passed I was already doing what I wanted, web development.
-            </p>
-            <p class="f-1">ALSO, we live at a time where we have access to the ultimate encyclopedia, why go to college and waste 4 years of your life while you can start creating 
-                something and learn much more in the process.
-            </p>
-            <h2 class="desc f-1">Principles as a programmer: </h2>
-            <p class="f-1">I believe that the best way to get better is to try <span class="marked" >building something you can't do</span>  right now.</p>
-            <p class="f-1">My coding workflow is always based on a previous TODO list I've made.</p>
-            <p class="f-1">'The best thing about creating something is the process itself' -me </p>
-        </div>
-        <div class="sidebar">
-            <div class="container-box sidebar-photo">
-                <h2 class="desc f-1">Tiago Taquelim</h2>
-                <img src="assets/eu.jpg">
-            </div>
-            <div class="container-box qualifications">
-                <h2 class="desc f-1">Certefications</h2>
-                <p class="f-1 underlined">
-                        <a href="./certefications.html">
-                            <span style="color: rgb(179, 9, 179);">Front-end developer</span>
-                     <span> @ freeCodeCamp</span> <br></a></p>
-            </div>
-            <div class="container-box courses" >
-                <h2 class="desc f-1">Courses I took</h2>
-                <ul class="courses-list">
-                    <li class="f-1">
-                         <a href="https://www.udemy.com/react-the-complete-guide-incl-redux/" target="_blank" >
-                        <span style="color: purple;">React 16 course</span>
-                        at <span style="color: #000;">Udemy</span></a>
-                    </li>
-                        
-                    <li class="f-1"> 
-                        <a href="https://scrimba.com/g/glearnreact" target="_blank" >
-                            <span style="color: purple;">Learn React</span>
-                            at <span style="color: #000;">Scrimba</span></a>
-                    </li>
-                    <li class="f-1"> 
-                        <a href="https://www.udemy.com/certificate/UC-3PDP0IWA/" target="_blank" >
-                            <span style="color: purple;">Web Design for Web Developers</span>
-                            at <span style="color: #000;">Udemy</span></a>
-                    </li>
-                    <li class="f-1 "> 
-                        <a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/" target="_blank" >
-                            <span style="color: purple;"> JavaScript Algorithms and Data Structures Masterclass</span></a>
-                    </li>
-                    <li class="f-1"> 
-                        <a href="https://www.udemy.com/the-complete-javascript-course/" target="_blank" >
-                            <span style="color: purple;">  The Complete JavaScript Course</span></a>
-                    </li>
-                   
-                   
-                </ul>
-            </div>
-            <div class="container-box chal">
-                <h2 class="desc f-1">Doing <a href="https://twitter.com/tiago_taquelim"  target="_blank" style="color: blue">#100DaysOfCode</a></h2>
-                <p> | 7 january 2019 - today |</p>
-                <p style="margin:0;padding:0;padding-bottom:20px">on <a href="https://twitter.com/tiago_taquelim" target="_blank">twitter</a></p>
-            </div>
-        </div>
-    </section>
-      <!-- Javascript -->
-      <script src="js/navbar.js"></script>
-</body>
+				<p class="f-2">
+					Long version:
+					<span style="font-size: 0.8rem;"
+						>(for the curious ones)</span
+					>
+				</p>
+				<h2 class="desc f-1">My background:</h2>
+				<p class="f-1">
+					I've been interacting with computers from a young age,
+					mainly playing games, but thats what brought me into the
+					programming world. I wanted to make games like the ones I
+					played and so from there it all started to unfoald.
+				</p>
+				<p class="f-1">
+					At 16 I beggin
+					<span class="marked">learning Python</span> from a series of
+					lectures that a friend of mine gave me in a pen drive.
+				</p>
+				<p class="f-1">
+					However, at that time I had school, and the time was little,
+					so I spent most of my
+					<span class="marked-a">free time learning to code</span>.
+				</p>
+				<p class="f-1">
+					Time passed... and I've built projects in Python - a
+					<a
+						class="marked-a"
+						href="https://github.com/sikozonpc/Web-Scraper"
+						target="_blank"
+						>web scraper</a
+					>,
+					<a
+						href="https://github.com/sikozonpc/Python-Card-Game"
+						target="_blank"
+						class="marked-a"
+						>a card game</a
+					>, a student grades program, etc...
+				</p>
+				<p class="f-1">
+					At 18 I was into the
+					<span class="marked">Microsoft .NET stack</span>, learnt
+					<span class="marked">c#</span> and the basics of
+					<b>back-end</b> development and <b>http requests</b>.
+				</p>
+				<p class="f-1">
+					Finally, today I can
+					<span class="marked">code full fledged web apps</span> in
+					JavaScript, mainly using React and Node.js.
+				</p>
+
+				<h2 class="desc f-1">Why the self-taught route?</h2>
+				<p class="f-1">
+					As explain before, I've learnt alot on my own, and even at
+					school most of the things I learned were on my own. So has
+					time passed I was already doing what I wanted, web
+					development.
+				</p>
+				<p class="f-1">
+					ALSO, we live at a time where we have access to the ultimate
+					encyclopedia, why go to college and waste 4 years of your
+					life while you can start creating something and learn much
+					more in the process.
+				</p>
+				<h2 class="desc f-1">Principles as a programmer:</h2>
+				<p class="f-1">
+					I believe that the best way to get better is to try
+					<span class="marked">building something you can't do</span>
+					right now.
+				</p>
+				<p class="f-1">
+					My coding workflow is always based on a previous TODO list
+					I've made.
+				</p>
+				<p class="f-1">
+					'The best thing about creating something is the process
+					itself' -me
+				</p>
+			</div>
+			<div class="sidebar">
+				<div class="container-box sidebar-photo">
+					<h2 class="desc f-1">Tiago Taquelim</h2>
+					<img src="assets/eu.jpg" />
+				</div>
+				<div class="container-box qualifications">
+					<h2 class="desc f-1">Certefications</h2>
+					<p class="f-1 underlined">
+						<a href="./certefications.html">
+							<span style="color: rgb(179, 9, 179);"
+								>Front-end developer</span
+							>
+							<span> @ freeCodeCamp</span> <br
+						/></a>
+					</p>
+				</div>
+				<div class="container-box courses">
+					<h2 class="desc f-1">Courses I took</h2>
+					<ul class="courses-list">
+						<li class="f-1">
+							<a
+								href="https://www.udemy.com/react-the-complete-guide-incl-redux/"
+								target="_blank"
+							>
+								<span style="color: purple;"
+									>React 16 course</span
+								>
+								at <span style="color: #000;">Udemy</span></a
+							>
+						</li>
+
+						<li class="f-1">
+							<a
+								href="https://scrimba.com/g/glearnreact"
+								target="_blank"
+							>
+								<span style="color: purple;">Learn React</span>
+								at <span style="color: #000;">Scrimba</span></a
+							>
+						</li>
+						<li class="f-1">
+							<a
+								href="https://www.udemy.com/certificate/UC-3PDP0IWA/"
+								target="_blank"
+							>
+								<span style="color: purple;"
+									>Web Design for Web Developers</span
+								>
+								at <span style="color: #000;">Udemy</span></a
+							>
+						</li>
+						<li class="f-1 ">
+							<a
+								href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/"
+								target="_blank"
+							>
+								<span style="color: purple;">
+									JavaScript Algorithms and Data Structures
+									Masterclass</span
+								></a
+							>
+						</li>
+						<li class="f-1">
+							<a
+								href="https://www.udemy.com/the-complete-javascript-course/"
+								target="_blank"
+							>
+								<span style="color: purple;">
+									The Complete JavaScript Course</span
+								></a
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="container-box chal">
+					<h2 class="desc f-1">
+						Doing
+						<a
+							href="https://twitter.com/tiago_taquelim"
+							target="_blank"
+							style="color: blue"
+							>#100DaysOfCode</a
+						>
+					</h2>
+					<p>| 7 january 2019 - today |</p>
+					<p style="margin:0;padding:0;padding-bottom:20px">
+						on
+						<a
+							href="https://twitter.com/tiago_taquelim"
+							target="_blank"
+							>twitter</a
+						>
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- Javascript -->
+		<script src="js/navbar.js"></script>
+	</body>
 </html>

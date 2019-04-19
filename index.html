@@ -1,206 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tiago Taquelim | Web Developer </title>
-    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
-    <meta name="google-site-verification" content="ARgKoBERKOPb1lDqdM0gWgq1R4cdpuR8yCqvkSnX8eo" />
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Css styles -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/skillset.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/modal.css">
-</head>
-<body>
-    <!-- To top button -->
-    <button onclick="toTop()" id="topButton" title="Go to top"><i class="fas fa-angle-up"></i></button>
-    <!-------- Navbar -------->
-    <nav class="nav" >
-        <a href="#" class="logo">tiago.taquelim</a>
-        <div class="nav-items topnav" id="navbar">
-            <a class="action c-maincolor -active" href="#">home</a>
-            <a class="action c-orange" href="/portfolio.html">portfolio</a>
-            <a class="action c-blue" href="/about.html">about</a>
-            <a class="action c-magic" href="#contact">contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="responsiveNavbar()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </nav>
-    <!-- Socials side bar -->
-    <div class="socials-sidebar">
-        <a href="https://www.linkedin.com/in/tiago-taquelim/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/sikozonpc" target="_blank"><i class="fab fa-github"></i></i></a>
-        <a href="https://www.hackerrank.com/sikozonbatata" target="_blank"><i class="fab fa-hackerrank"></i></i></a>
-        <a href="https://twitter.com/tiago_taquelim" target="_blank"><i class="fab fa-twitter"></i></i></a>
-    </div>
-    <!-------- Header -------->
-    <header class="header">    
-        <div class="intro-text">
-            <h2>Web developer, <br> creator & <br>problem solver</h2>
-        </div>
-        <div class="photo-me">
-            <div class="photo-me--card">
-                <img src="assets/eu.jpg" alt="author's photo">
-                <p class="desc">Hello! I'm a self taught software developer from Portugal.<br>
-                    I love to create minimalistic web applications, from front to back end.
-                </p>
-            </div>
-            <div class="btn-list">
-                <a href="#contact" class="btn">Hire me</a>
-                <a href="./portfolio.html" class="btn">Portfolio</a>
-            </div>
-        </div>
-        <!-- TODO Work on a fix for the arrow-->
-        <!--<a class="down-arrow" href="#portfolio"><i class="fas fa-angle-down"></i></a>-->
-    </header>
-    <!-------- Portfolio -------->
-    <section id="portfolio">
-        <div class="portfolio--page">
-            <h2 class="title"> Portfolio</h2>
-       
-            <p class="desc">I love to <span class="marked">create applications that challenge myself</span>, and so I've created some
-                well rounded applications.<br> 
-                These are my top 3, if you are intrested in seeing more of my work
-                    check out the <a class="marked-a" href="./portfolio.html">portfolio page.</a>
-            </p>
-           
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Tiago Taquelim | Web Developer</title>
+		<link rel="shortcut icon" type="image/png" href="./favicon.png" />
+		<meta
+			name="google-site-verification"
+			content="ARgKoBERKOPb1lDqdM0gWgq1R4cdpuR8yCqvkSnX8eo"
+		/>
+		<!-- Font Awesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<!-- Css styles -->
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/portfolio.css" />
+		<link rel="stylesheet" href="css/skillset.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<link rel="stylesheet" href="css/modal.css" />
+	</head>
+	<body>
+		<!-- To top button -->
+		<button onclick="toTop()" id="topButton" title="Go to top">
+			<i class="fas fa-angle-up"></i>
+		</button>
+		<!-------- Navbar -------->
+		<nav class="nav">
+			<a href="#" class="logo">tiago.taquelim</a>
+			<div class="nav-items topnav" id="navbar">
+				<a class="action c-maincolor -active" href="#">home</a>
+				<a class="action c-orange" href="/portfolio.html">portfolio</a>
+				<a class="action c-blue" href="/about.html">about</a>
+				<a class="action c-magic" href="#contact">contact</a>
+				<a
+					href="javascript:void(0);"
+					class="icon"
+					onclick="responsiveNavbar()"
+				>
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+		<!-- Socials side bar -->
+		<div class="socials-sidebar">
+			<a
+				href="https://www.linkedin.com/in/tiago-taquelim/"
+				target="_blank"
+				><i class="fab fa-linkedin"></i
+			></a>
+			<a href="https://github.com/sikozonpc" target="_blank"
+				><i class="fab fa-github"></i
+			></a>
+			<a href="https://www.hackerrank.com/sikozonbatata" target="_blank"
+				><i class="fab fa-hackerrank"></i
+			></a>
+			<a href="https://twitter.com/tiago_taquelim" target="_blank"
+				><i class="fab fa-twitter"></i
+			></a>
+		</div>
+		<!-------- Header -------->
+		<header class="header">
+			<div class="intro-text">
+				<h2>
+					Web developer, <br />
+					creator & <br />problem solver
+				</h2>
+			</div>
+			<div class="photo-me">
+				<div class="photo-me--card">
+					<img src="assets/eu.jpg" alt="author's photo" />
+					<p class="desc">
+						Hello! I'm a self taught software developer from
+						Portugal.<br />
+						I love to create minimalistic web applications, from
+						front to back end.
+					</p>
+				</div>
+				<div class="btn-list">
+					<a href="#contact" class="btn">Hire me</a>
+					<a href="./portfolio.html" class="btn">Portfolio</a>
+				</div>
+			</div>
+			<!-- TODO Work on a fix for the arrow-->
+			<!--<a class="down-arrow" href="#portfolio"><i class="fas fa-angle-down"></i></a>-->
+		</header>
+		<!-------- Portfolio -------->
+		<section id="portfolio">
+			<div class="portfolio--page">
+				<h2 class="title">Portfolio</h2>
 
-            <div class="portfolio--page__projects">
+				<p class="desc">
+					I love to
+					<span class="marked"
+						>create applications that challenge myself</span
+					>, and so I've created some well rounded applications.<br />
+					These are my top 3, if you are intrested in seeing more of
+					my work check out the
+					<a class="marked-a" href="./portfolio.html"
+						>portfolio page.</a
+					>
+				</p>
 
-                <a href="/projects/contasapp.html" class="project">
-                    <img src="assets/thumbnails/leafion.png">
-                    <h3 class="desc">Leafion</h3>
-                    <p>An application to register spendings along the months.</p>
-         
-                    <p> 
-                        <span class="badge badge-blue">React</span>
-                        <span class="badge badge-green">Node.js</span>
-                        <span class="badge">Express</span>
-                        <span class="badge badge-greenLight">Mongo</span>
-                        <span class="badge">REST API</span>
-                    </p>
-                </a>
+				<div class="portfolio--page__projects">
+					<a href="/projects/contasapp.html" class="project">
+						<img src="assets/thumbnails/leafion.png" />
+						<h3 class="desc">Leafion</h3>
+						<p>
+							An application to register spendings along the
+							months.
+						</p>
 
-                <a href="./projects/liquidcloud.html" class="project">
-                    <img src="assets/thumbnails/liquidcloud_preview.png">
+						<p>
+							<span class="badge badge-blue">React</span>
+							<span class="badge badge-green">Node.js</span>
+							<span class="badge">Express</span>
+							<span class="badge badge-greenLight">Mongo</span>
+							<span class="badge">REST API</span>
+						</p>
+					</a>
 
-                    <h3 class="desc">Liquidcloud</h3>
-                    <p>A small landing page for a tech company with a modern look.</p>
-         
-                    <p> 
-                        <span class="badge badge-yellow">JS</span>
-                        <span class="badge badge-orange">HTML</span>
-                        <span class="badge badge-blueDark">CSS</span>
-                    </p>
-                </a>
+					<a href="./projects/liquidcloud.html" class="project">
+						<img src="assets/thumbnails/liquidcloud_preview.png" />
 
-                <div class="modal" id="wip-modal" >
-                    <p>Work in progress</p>
-                    <button onclick="hideWIPModal()">OK</button>
-                </div>
+						<h3 class="desc">Liquidcloud</h3>
+						<p>
+							A small landing page for a tech company with a
+							modern look.
+						</p>
 
-                <a class="project" onclick="showWIPModal()">
-                    <img src="https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="wip-filter">
-                    <i class="fas fa-tools"></i>
-                   
-                    <h3 class="desc">Astronomy App</h3>
-                    <p>A Web Platform to post & review code snippes.</p>
-         
-                    <p> 
-                        <span class="badge badge-blue">React</span>
-                        <span class="badge badge-green">Node.js</span>
-                        <span class="badge">web API</span>
-                    </p>
-                </a>
-                
-            </div>
+						<p>
+							<span class="badge badge-yellow">JS</span>
+							<span class="badge badge-orange">HTML</span>
+							<span class="badge badge-blueDark">CSS</span>
+						</p>
+					</a>
 
-            <a href="/portfolio.html" 
-                class="btn-new"
-                style="margin-top: 50px;"><span>See more</span></a>
+					<div class="modal" id="wip-modal">
+						<p>Work in progress</p>
+						<button onclick="hideWIPModal()">OK</button>
+					</div>
 
-            <div class="more-info">
-                <h2 class="sub-title">also check out »</h2>
-                <a style="font-size: 2rem;text-decoration: none; color:inherit;margin-right: 35px;"
-                     href="https://github.com/sikozonpc" target="_blank">
-                     <i class="fab fa-github"></i></i>Github
-                </a>
-                <a 
-                    style="font-size: 2rem;text-decoration: none; color:inherit;"
-                     href="https://codepen.io/sikozonpc/" target="_blank">
-                     <i  class="fab fa-codepen"></i>CodePen
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-------- Skillset -------->
-    <section id="skillset">
-        <div class="skills--page">
-            <h2 class="title">Skillset</h2>
-            <p class="desc">This is my technology stack. However I am always looking forward to learn new skills.<br>
-                The main tools I use in most of my work are <b>JavaScript</b> & <b>React</b>.</p>
-            <div class="skills-table">
-                <ul class="front">
-                    <p class="front-title">Front-end</p>
-                    <li>React / Redux</li>
-                    <li>HTML</li>
-                    <li>CSS & Sass</li>
-                    <li>Bootstrap</li>
-                </ul>
-                <ul>
-                    <p>Back-end</p>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>C#</li>
-                </ul>
-                <ul>
-                    <p>Tools</p>
-                    <li>Git command line</li>
-                    <li>Linux and Windows Terminals</li>
-                    <li>Visual Studio</li>
-                    <li>Figma</li>
-                </ul>
-            </div>
-            <a style="margin-top: 100px" onclick="showWIPModal()" class="btn-new"><span>Resume</span></a>
-        </div>
-    </section>
-    <!------ Contact -------->  
-    <section id="contact">
-        <div class="contact--page">
-            <h2 class="title contact">Contact</h2>
-            <form name="contact-form" class="contact-form">
-                <p class="f-1">Interested in working together? Hit me up with an email 📩</p>
-                <p class="marked-blue f-1" 
-                    style="margin-bottom: 2.5em;border-radius: 0px;padding:10px;">
-                    tiago.taquelim.ferreira@gmail.com
-                </p>
-                <a href="mailto:tiago.taquelim.ferreira@gmail.com" style="margin-top: 20px;" class="btn-new"><span>Send</span>></a>
-            </form>
-        </div>
-    </section>
-    <footer id="socials">
-        <div class="socials-list">
-            <a href="https://www.linkedin.com/in/tiago-taquelim/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/sikozonpc" target="_blank"><i class="fab fa-github"></i></i></a>
-            <a href="https://www.hackerrank.com/sikozonbatata" target="_blank"><i class="fab fa-hackerrank"></i></i></a>
-            <a href="https://twitter.com/tiago_taquelim" target="_blank"><i class="fab fa-twitter"></i></i></a>
-        </div>
-        <hr style="width: 50%;">
-        <p class="desc signature">drawn with care & ❤️ by  <a href="https://twitter.com/tiago_taquelim" target="_blank">@tiago_taquelim</a></p>
-        <p>@2019 - Webpage code at GitHub</p>
+					<a class="project" onclick="showWIPModal()">
+						<img
+							src="https://images.pexels.com/photos/1567069/pexels-photo-1567069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+							class="wip-filter"
+						/>
+						<i class="fas fa-tools"></i>
 
-    </footer>
+						<h3 class="desc">Astronomy App</h3>
+						<p>A Web Platform to post & review code snippes.</p>
 
-    <!-- Javascript -->
-    <script src="js/navbar.js"></script>
-    <script src="js/modal.js"></script>
-</body>
+						<p>
+							<span class="badge badge-blue">React</span>
+							<span class="badge badge-green">Node.js</span>
+							<span class="badge">web API</span>
+						</p>
+					</a>
+				</div>
+
+				<a
+					href="/portfolio.html"
+					class="btn-new"
+					style="margin-top: 50px;"
+					><span>See more</span></a
+				>
+
+				<div class="more-info">
+					<h2 class="sub-title">also check out »</h2>
+					<a
+						style="font-size: 2rem;text-decoration: none; color:inherit;margin-right: 35px;"
+						href="https://github.com/sikozonpc"
+						target="_blank"
+					>
+						<i class="fab fa-github"></i>Github
+					</a>
+					<a
+						style="font-size: 2rem;text-decoration: none; color:inherit;"
+						href="https://codepen.io/sikozonpc/"
+						target="_blank"
+					>
+						<i class="fab fa-codepen"></i>CodePen
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-------- Skillset -------->
+		<section id="skillset">
+			<div class="skills--page">
+				<h2 class="title">Skillset</h2>
+				<p class="desc">
+					This is my technology stack. However I am always looking
+					forward to learn new skills.<br />
+					The main tools I use in most of my work are
+					<b>JavaScript</b> & <b>React</b>.
+				</p>
+				<div class="skills-table">
+					<ul class="front">
+						<p class="front-title">Front-end</p>
+						<li>React / Redux</li>
+						<li>HTML</li>
+						<li>CSS & Sass</li>
+						<li>Bootstrap</li>
+					</ul>
+					<ul>
+						<p>Back-end</p>
+						<li>Node.js</li>
+						<li>Express</li>
+						<li>C#</li>
+					</ul>
+					<ul>
+						<p>Tools</p>
+						<li>Git command line</li>
+						<li>Linux and Windows Terminals</li>
+						<li>Visual Studio</li>
+						<li>Figma</li>
+					</ul>
+				</div>
+				<a
+					style="margin-top: 100px"
+					onclick="showWIPModal()"
+					class="btn-new"
+					><span>Resume</span></a
+				>
+			</div>
+		</section>
+		<!------ Contact -------->
+		<section id="contact">
+			<div class="contact--page">
+				<h2 class="title contact">Contact</h2>
+				<form name="contact-form" class="contact-form">
+					<p class="f-1">
+						Interested in working together? Hit me up with an email
+						📩
+					</p>
+					<p
+						class="marked-blue f-1"
+						style="margin-bottom: 2.5em;border-radius: 0px;padding:10px;"
+					>
+						tiago.taquelim.ferreira@gmail.com
+					</p>
+					<a
+						href="mailto:tiago.taquelim.ferreira@gmail.com"
+						style="margin-top: 20px;"
+						class="btn-new"
+						><span>Send</span>></a
+					>
+				</form>
+			</div>
+		</section>
+		<footer id="socials">
+			<div class="socials-list">
+				<a
+					href="https://www.linkedin.com/in/tiago-taquelim/"
+					target="_blank"
+					><i class="fab fa-linkedin"></i
+				></a>
+				<a href="https://github.com/sikozonpc" target="_blank"
+					><i class="fab fa-github"></i
+				></a>
+				<a
+					href="https://www.hackerrank.com/sikozonbatata"
+					target="_blank"
+					><i class="fab fa-hackerrank"></i
+				></a>
+				<a href="https://twitter.com/tiago_taquelim" target="_blank"
+					><i class="fab fa-twitter"></i
+				></a>
+			</div>
+			<hr style="width: 50%;" />
+			<p class="desc signature">
+				drawn with care & ❤️ by
+				<a href="https://twitter.com/tiago_taquelim" target="_blank"
+					>@tiago_taquelim</a
+				>
+			</p>
+			<p>@2019 - Webpage code at GitHub</p>
+		</footer>
+
+		<!-- Javascript -->
+		<script src="js/navbar.js"></script>
+		<script src="js/modal.js"></script>
+	</body>
 </html>

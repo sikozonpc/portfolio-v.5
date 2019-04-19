@@ -1,144 +1,144 @@
 /************* Header *************/
 .header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
 
-    max-width: 1280px;
-    margin: 120px auto;
-    box-sizing: border-box;
+	max-width: 1280px;
+	margin: 120px auto;
+	box-sizing: border-box;
 }
-    .photo-me {
-        position: relative;
-        display: flex;
-        flex-flow: column nowrap;
+.photo-me {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
 
-        margin-top: 0px;
-        background: whitesmoke;
-        padding: 15px;
+	margin-top: 0px;
+	background: whitesmoke;
+	padding: 15px;
 
-        max-width: 524px;
+	max-width: 524px;
 
-        box-shadow: 4px 4px 4px rgba(0,0,0,0.1),
-        4px -100px 0 transparent inset;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1), 4px -100px 0 transparent inset;
 
-        box-sizing: border-box;
-    }
-        .photo-me::after {
-            content: "";
-            position: absolute;
-            background: linear-gradient(90deg,#b3ffab, #12fff7);
-            top:0;
-            left: 0;
-            
-            width: 4px;
-            height: 100%;
-        }
-        .photo-me::before {
-            content: "";
-            position: absolute;
-            transform: rotate(5deg);
-            filter: opacity(80%);
-            background:  linear-gradient(-90deg,hsla(276, 51%, 47%, 0.863), #fd1d1dcb, #fcb045e1);
-            box-shadow:  -6px 6px 0px rgba(0,0,0,0.05),
-            0 -100px 0 transparent inset;
-            top: 40px;
-            left: -10px;
-            height: 90%;
-            width: 100%; 
-            z-index: -2;
-        }
-        .photo-me--card {
-            display: flex;
-            flex-flow: row nowrap;
-            align-items: center;
-            justify-content: center;
-        }
-            .photo-me--card > img {
-                border-radius: 100px;
-                width: 25%;
-                height: 100%;
-                margin-right: 15px;
-            }
-            .photo-me--card > .desc {
-                line-height: 25px;
-            }
-        .btn-list {
-            align-self: flex-end;
-            margin-top: 15px;
-        }
-        .btn-list > a {
-            margin-right: 15px;
-        }
+	box-sizing: border-box;
+}
+.photo-me::after {
+	content: "";
+	position: absolute;
+	background: linear-gradient(90deg, #b3ffab, #12fff7);
+	top: 0;
+	left: 0;
 
-    .intro-text { 
-        position: relative;
-        font-size: 2.5rem;
-        margin-top: -70px;
-    
-    }
-        .intro-text::before {
-            content: "";
-            position: absolute;
-            background: linear-gradient(90deg,#b3ffab, #12fff7);
-            box-shadow: 0 4px 4px rgba(0,0,0,0.1),
-            0 -100px 0 transparent inset;
-            top: 80px;
-            left: 20px;
-            height: 70%;
-            width: 100%; 
-            z-index: -1;
-        }
-        .intro-text::after {
-            content: "";
-            position: absolute;
-            transform: rotate(-5deg);
-            filter: opacity(80%);
-            background:  linear-gradient(90deg,#833ab4dc, #fd1d1dcb, #fcb045e1);
-            box-shadow: 6px -6px 0px rgba(0,0,0,0.05),
-            0 -100px 0 transparent inset;
-            top: 90px;
-            left: 30px;
-            height: 70%;
-            width: 100%; 
-            z-index: -2;
-        }
+	width: 4px;
+	height: 100%;
+}
+.photo-me::before {
+	content: "";
+	position: absolute;
+	transform: rotate(5deg);
+	filter: opacity(80%);
+	background: linear-gradient(
+		-90deg,
+		hsla(276, 51%, 47%, 0.863),
+		#fd1d1dcb,
+		#fcb045e1
+	);
+	box-shadow: -6px 6px 0px rgba(0, 0, 0, 0.05), 0 -100px 0 transparent inset;
+	top: 40px;
+	left: -10px;
+	height: 90%;
+	width: 100%;
+	z-index: -2;
+}
+.photo-me--card {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+.photo-me--card > img {
+	border-radius: 100px;
+	width: 25%;
+	height: 100%;
+	margin-right: 15px;
+}
+.photo-me--card > .desc {
+	line-height: 25px;
+}
+.btn-list {
+	align-self: flex-end;
+	margin-top: 15px;
+}
+.btn-list > a {
+	margin-right: 15px;
+}
+
+.intro-text {
+	position: relative;
+	font-size: 2.5rem;
+	margin-top: -70px;
+}
+.intro-text::before {
+	content: "";
+	position: absolute;
+	background: linear-gradient(90deg, #b3ffab, #12fff7);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 -100px 0 transparent inset;
+	top: 80px;
+	left: 20px;
+	height: 70%;
+	width: 100%;
+	z-index: -1;
+}
+.intro-text::after {
+	content: "";
+	position: absolute;
+	transform: rotate(-5deg);
+	filter: opacity(80%);
+	background: linear-gradient(90deg, #833ab4dc, #fd1d1dcb, #fcb045e1);
+	box-shadow: 6px -6px 0px rgba(0, 0, 0, 0.05), 0 -100px 0 transparent inset;
+	top: 90px;
+	left: 30px;
+	height: 70%;
+	width: 100%;
+	z-index: -2;
+}
 
 /******* Media queries ********/
-@media screen and (max-width: 1050px){
-    .header { 
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .photo-me {
-        margin-top: 50px;
-        width: 70%;
-    }
+@media screen and (max-width: 1050px) {
+	.header {
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.photo-me {
+		margin-top: 50px;
+		width: 70%;
+	}
 }
-@media screen and (max-width: 430px){
-    .down-arrow {
-        display: none;
-    }
-    .header { 
-        flex-flow: column;
-    }
-    .intro-text { 
-        font-size: 1.7rem;
-        padding: 0;
-    }
-    .intro-text::after {
-        top: 40px;
-        left: 10px;
-    }
-    .intro-text::before {
-        top: 40px;
-        left: 10px;
-    }
-    .photo-me { 
-        width: 100%;
-    }
-    .photo-me--card > img {
-        display: none;
-    }
+@media screen and (max-width: 430px) {
+	.down-arrow {
+		display: none;
+	}
+	.header {
+		flex-flow: column;
+	}
+	.intro-text {
+		font-size: 1.7rem;
+		padding: 0;
+	}
+	.intro-text::after {
+		top: 40px;
+		left: 10px;
+	}
+	.intro-text::before {
+		top: 40px;
+		left: 10px;
+	}
+	.photo-me {
+		width: 100%;
+	}
+	.photo-me--card > img {
+		display: none;
+	}
 }
