@@ -258,6 +258,9 @@ h2 {
 .badge-blueDark {
 	background: rgb(47, 84, 248);
 }
+.badge-pink {
+	background: #cd6799;
+}
 
 .title {
 	position: relative;
@@ -308,7 +311,8 @@ h2 {
 .desc {
 	font-size: 1.1rem;
 	position: relative;
-	margin-left: 15px;
+	margin-left: 25px;
+	align-self: flex-start;
 	line-height: 1.5;
 }
 .desc::after {
@@ -370,10 +374,15 @@ h2 {
 	font-size: 2rem !important;
 	font-weight: bold;
 	align-self: flex-start;
+	margin-left: 10px;
 }
 .small {
 	padding: 10px 20px;
 	font-size: 1.2rem;
+}
+
+.u-text-center {
+	align-self: center;
 }
 
 .important-text {

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Natours / Tiago Taquelim</title>
+		<link rel="shortcut icon" type="image/png" href="../favicon.png" />
+		<!-- Font Awesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" href="../css/navbar.css" />
+		<link rel="stylesheet" href="../css/singleProject.css" />
+		<link rel="stylesheet" href="../css/portfolio.css" />
+	</head>
+	<body>
+		<!-- To top button -->
+		<button onclick="toTop()" id="topButton" title="Go to top">
+			<i class="fas fa-angle-up"></i>
+		</button>
+
+		<nav class="nav">
+			<a href="/index.html" class="logo">tiago.taquelim</a>
+			<div class="nav-items topnav" id="navbar">
+				<a class="action c-maincolor " href="../index.html">home</a>
+				<a class="action c-orange" href="/portfolio.html">portfolio</a>
+				<a class="action c-blue" href="/about.html">about</a>
+				<a class="action c-magic" href="#contact">contact</a>
+				<a
+					href="javascript:void(0);"
+					class="icon"
+					onclick="responsiveNavbar()"
+				>
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+		<section class="project-wrapper">
+			<div class="portfolio--page">
+				<h2 class="title">Natours</h2>
+
+				<div>
+					<a
+						href="https://sikoz-natours.netlify.com/"
+						target="_blank"
+						class="btn-new"
+						style="margin-top: 50px;"
+						><span>Website</span></a
+					>
+					<a
+						href="https://github.com/sikozonpc/Natours"
+						target="_blank"
+						class="btn-new"
+						style="margin-top: 50px;"
+						><span>See Code</span></a
+					>
+				</div>
+
+				<p class="f-3">What is Natours ?</p>
+				<p class="desc">
+					Natours is a website made as a project from the Advanced CSS
+					course from Jonas Schmedtmann on Udemy.<br />
+				</p>
+				<p class="f-3">Technoligies used</p>
+				<div class="techs">
+					<ul>
+						<p class="desc">Front-end</p>
+						<li>CSS / HTML</li>
+						<li>Sass</li>
+					</ul>
+					<ul>
+						<p class="desc">Deployment</p>
+						<li>Netlify</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- Javascript -->
+		<script src="../js/navbar.js"></script>
+	</body>
+</html>
