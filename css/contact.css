@@ -106,6 +106,7 @@ textarea:focus {
 .signature a {
 	background: linear-gradient(-136deg, #f15d4a 2%, #e934f2 70%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-decoration: none;
 }
