@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Todo Manager / Tiago Taquelim</title>
+		<link rel="shortcut icon" type="image/png" href="../favicon.png" />
+		<!-- Font Awesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="../css/index.css" />
+		<link rel="stylesheet" href="../css/navbar.css" />
+		<link rel="stylesheet" href="../css/singleProject.css" />
+		<link rel="stylesheet" href="../css/portfolio.css" />
+	</head>
+	<body>
+		<!-- To top button -->
+		<button onclick="toTop()" id="topButton" title="Go to top">
+			<i class="fas fa-angle-up"></i>
+		</button>
+
+		<nav class="nav">
+			<a href="/index.html" class="logo">tiago.taquelim</a>
+			<div class="nav-items topnav" id="navbar">
+				<a class="action c-maincolor " href="../index.html">home</a>
+				<a class="action c-orange" href="/portfolio.html">portfolio</a>
+				<a class="action c-blue" href="/about.html">about</a>
+				<a class="action c-magic" href="#contact">contact</a>
+				<a
+					href="javascript:void(0);"
+					class="icon"
+					onclick="responsiveNavbar()"
+				>
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+		<section class="project-wrapper">
+			<div class="portfolio--page">
+				<h2 class="title">Todo Manager</h2>
+
+				<div>
+					<a
+						href="https://github.com/sikozonpc/ToDo-Manager-App"
+						target="_blank"
+						class="btn-new"
+						style="margin-top: 50px;"
+						><span>See Code</span></a
+					>
+				</div>
+
+				<p class="f-3">What is Todo Manager ?</p>
+				<p class="desc">
+					My first C# completed application, from which I learned alot
+					of the .NET technology stack. Also got to learn MS SQL
+					database, text file storage, separating the logic from the
+					ui and some third-party libraries. <br />
+				</p>
+				<p class="f-3">Why built it?</p>
+				<p class="desc">
+					This was a simple application to test what I've been
+					learning and it was a very fun project to code.
+				</p>
+				<p class="f-3">Technoligies used</p>
+				<div class="techs">
+					<ul>
+						<p class="desc">Front-end</p>
+						<li>C# WinForms</li>
+					</ul>
+					<ul>
+						<p class="desc">Back-end</p>
+						<li>C#</li>
+					</ul>
+					<ul>
+						<p class="desc">Database</p>
+						<li>MS SQL</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- Javascript -->
+		<script src="../js/navbar.js"></script>
+	</body>
+</html>
